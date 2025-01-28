@@ -42,3 +42,39 @@ document.getElementById('user-name').innerHTML = UserName
 
 // Controle de Fluxos
 
+// Cenário 1: Saque de 500 com saldo de mil
+// var saldo = 1000
+// function saque(valor){
+//     saldo = saldo - valor
+// }
+// saque(500)
+// console.log(saldo)
+
+// // Cenário 2: 
+// var saldo = 1000
+// function saque(valor){
+//     if (valor > saldo){
+//         console.log("O valor que você deseja sacar é maior que o saldo existente em conta!")
+//     }
+//     else{
+//         saldo = saldo - valor
+//     }
+// }
+// saque(50)
+// console.log(saldo)
+
+// Cenário 3: 
+var saldo = 1000
+function saque(valor){
+    if (valor > saldo){
+        console.log("O valor que você deseja sacar é maior que o saldo existente em conta!")
+    }
+    else if (valor > 700){
+        console.log("O valor que você deseja sacar é maior que o permitido por operação!")
+    }
+    else{
+        saldo = saldo - valor
+    }
+}
+saque(600)
+console.log(saldo)
