@@ -64,17 +64,38 @@ document.getElementById('user-name').innerHTML = UserName
 // console.log(saldo)
 
 // Cenário 3: 
-var saldo = 1000
-function saque(valor){
-    if (valor > saldo){
-        console.log("O valor que você deseja sacar é maior que o saldo existente em conta!")
-    }
-    else if (valor > 700){
-        console.log("O valor que você deseja sacar é maior que o permitido por operação!")
-    }
-    else{
-        saldo = saldo - valor
-    }
-}
-saque(600)
-console.log(saldo)
+// var saldo = 1000
+// function saque(valor){
+//     if (valor > saldo){
+//         console.log("O valor que você deseja sacar é maior que o saldo existente em conta!")
+//     }
+//     else if (valor > 700){
+//         console.log("O valor que você deseja sacar é maior que o permitido por operação!")
+//     }
+//     else{
+//         saldo = saldo - valor
+//     }
+// }
+// saque(600)
+// console.log(saldo)
+
+
+// arrays
+// var gaveteiro = ["Vestidos", "Meias", "Saias", "Roupas de treino"]
+
+// console.log(gaveteiro[3])
+
+// var personagens = ["Lilo", "Boneca", "Princesa", "Principe"]
+
+// personagens.push("gato")
+// personagens.pop()
+// personagens = personagens.filter(function(p){
+//     return p !== "Boneca"
+// })
+
+// personagens = personagens.filter(function(p){
+//     return p == "Lilo"
+// })
+// console.log(typeof personagens)
+
+// console.log(personagens)
