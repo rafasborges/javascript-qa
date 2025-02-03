@@ -99,3 +99,56 @@ document.getElementById('user-name').innerHTML = UserName
 // console.log(typeof personagens)
 
 // console.log(personagens)
+
+
+// controle de repetições
+
+var personagens = ["Lilo", "Boneca", "Princesa", "Principe"]
+
+// personagens.forEach(function(p){
+//     console.log(p)
+// })
+
+// for (var i in personagens){
+//     console.log(personagens[i])
+// }
+
+// for (var i =0; i<= 10; i++){
+//     console.log(i)
+// }
+
+// objetos
+
+
+// var yoda = {}
+// yoda.nome = "Mestre Yoda"
+// yoda.idade = "100"
+// yoda.jedi = true
+// console.log(yoda)
+
+// var yoda = {
+//     nome : "Mestre Yoda",
+//     idade : "100",
+//     jedi : true,
+//     mostraIdade: function(){
+//         console.log(this.idade)
+//     }
+// }
+// yoda.mostra_idade()
+// console.log(yoda)
+
+// var yoda = {
+//     nome : "Mestre Yoda",
+//     idade : "100",
+//     jedi : true,
+//     mostraIdade: function(){
+//         console.log(`A idade do ${this.nome} é de ${this.idade} anos.`)
+//     }
+// }
+// yoda.mostraIdade()
+
+//constantes
+// const nome = "Darth Vader"
+// console.log(nome)
+
+
