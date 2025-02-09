@@ -47,12 +47,39 @@ const App = new Vue({
     data: {
         title: "Star Wars Lego",
         userName: "Rafaela Borges",
-        characters: LIST
+        characters: LIST,
+        searchName: '',
     },
     methods: {
         like(persoName) {
             alert(`O personagem ${persoName} recebeu um like!`)
+        },
+        remove(id){
+            const list = this.characters
 
+            const result = list.filter(item => {
+                return item.id !== id
+            })
+                
+            this.characters = result
+
+        },
+        search(){
+
+            if (this.searchName === ''){
+                return alert('O campo de busca é obrigatório!')
+            }
+            const list = this.characters = LIST
+
+            const result = list.filter(item => {
+                return item.nome === this.searchName
+            })
+
+            if(result.length <= 0){
+                alert('Nenhum resultado encontrado!')
+            } else{
+                this.characters = result
+            }
         }
     }
 })
