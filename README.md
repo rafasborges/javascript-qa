@@ -1,6 +1,6 @@
 # 🚀 Certificado de Conclusão - Programação Básica para QAs
 
-Concluí o curso **Programação Básica para QAs de Alta Performance** na Udemy, onde aprendi os fundamentos de programação com **JavaScript**, além de conceitos essenciais de **HTML e CSS**.  
+Concluí o curso **[Programação Básica para QAs de Alta Performance](https://www.udemy.com/course/javascript-para-qas/learn/lecture/38949966?start=0#overview)** na Udemy, onde aprendi os fundamentos de programação com **JavaScript**, além de conceitos essenciais de **HTML e CSS**.   
 
 Durante o curso, desenvolvi habilidades práticas para automação de testes e qualidade de software, trabalhando com:  
 
